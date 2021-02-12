@@ -1,0 +1,22 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+    to right bottom, 
+    rgba(#eabf9f, 0.81),
+    rgba(#b68973, 0.5)),
+    url(../img/coffee-maker.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80vh);
+
+    &__text-box {
+        position: absolute;
+
+        top: 35%;
+        left: 5%;
+
+        text-align: center
+    }
+}

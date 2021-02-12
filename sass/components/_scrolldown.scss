@@ -1,0 +1,12 @@
+.scroll-down-indicator {
+    text-transform: uppercase;
+    color: $color-white;
+    position: absolute;
+    font-size: 1.5rem;
+    right: 5%;
+    bottom: 5%;
+    font-weight: 500;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    animation: scrollDown 3s infinite;
+}
