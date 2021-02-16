@@ -3,6 +3,8 @@
 
 @import "layout/header";
 @import "layout/grid";
+@import "layout/footer";
+@import "layout/nav";
 
 @import "base/typography";
 @import "base/base";
@@ -12,5 +14,10 @@
 @import "components/scrolldown";
 @import "components/buttons";
 @import "components/photo";
+@import "components/featureBox";
+@import "components/card";
+@import "components/form";
+@import "components/story";
+@import "components/bg-video";
 
 @import "pages/home";

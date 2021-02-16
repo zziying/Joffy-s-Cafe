@@ -1,0 +1,40 @@
+.nav {
+    position: relative;
+
+    &__list {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        margin: 4rem;
+    }
+
+    &__logo {
+        width: 10%;
+        margin-left: 3rem;
+    }
+
+    &__item {
+        display: inline-block;
+        list-style: none;
+        padding: 0 3rem;
+        margin: 0 1rem;
+
+        &:hover {
+            background-color: $color-brown-heavy;
+            color: $color-white;
+            border-radius: 10px;
+            transition: background-color .2s ease;
+            box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        }
+    }
+
+    &__link {
+
+        &:visited, &:link {
+            text-decoration: none;
+            color: inherit;
+            font-weight: 700;
+            font-size: 1.8rem;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.card {
+    transition: all 0.8s ease;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    border: 1rem;
+    overflow: hidden;
+    height: 45rem;
+
+    &__picture {
+        background-size: cover;
+        height: 23rem;
+        background-blend-mode: screen;
+        
+        &--1 {
+            background-image: linear-gradient(to right, 
+            rgba($color-brown-heavy,.5),
+            rgba($color-brown-light, .5)),
+             url(../img/coffee-beans.jpg);
+        }
+
+        &--2 {
+            background-image: linear-gradient(to right, 
+            rgba($color-brown-heavy,.5),
+            rgba($color-brown-light, .5)),
+            url(../img/latte.jpg);
+        }
+
+        &--3 {
+            background-image: linear-gradient(to right, 
+            rgba($color-brown-heavy,.5),
+            rgba($color-brown-light, .5)),
+            url(../img/americano.jpg);
+        }
+
+        &--4 {
+            background-image: linear-gradient(to right, 
+            rgba($color-brown-heavy,.3),
+            rgba($color-brown-light, .3)),
+            url(../img/bakery.jpg);
+        }
+    }
+
+    &__heading {
+        font-size: 2rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: left;
+        color: $color-brown-heavy;
+        margin: 1rem 0 0 2rem;
+    }
+
+    &__details {
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+    &__link {
+        text-decoration: none;
+        margin-left: 2rem;
+        margin-bottom: 3rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: $color-brown-heavy;
+
+        &:hover {
+            border-bottom: .1rem solid $color-brown-heavy;
+        }
+    }
+}
